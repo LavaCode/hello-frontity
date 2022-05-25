@@ -3,7 +3,7 @@ import { connect } from "frontity";
 
 const LightboxImage = (props) => (
   <div>
-    <Lightbox images={
+    <SRLWrapper images={
       [
         {
           src: props.src,
