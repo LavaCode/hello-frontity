@@ -7,7 +7,7 @@ const LightboxImage = (props) => (
       [
         {
           src: props.src,
-          title: props.alt, hello
+          title: props.alt,
           description: props.description
         }
       ]
